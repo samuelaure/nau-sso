@@ -8,3 +8,4 @@ dist/
 *.tsbuildinfo
 package-lock.json
 pnpm-lock.yaml
+.next/
