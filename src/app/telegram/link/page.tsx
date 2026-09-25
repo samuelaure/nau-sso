@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
-import { getSessionFromCookieStore } from '@samuelaure/auth'
+import { getSessionFromCookieStore } from '@samuelaure/nau-auth'
 import { TelegramLinkConfirm } from './TelegramLinkConfirm'
 
 export default async function TelegramLinkPage({

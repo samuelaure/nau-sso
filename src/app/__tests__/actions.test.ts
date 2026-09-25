@@ -30,8 +30,8 @@ vi.mock('next/headers', () => ({
   cookies: vi.fn().mockResolvedValue(cookieSpy),
 }))
 
-// ── Mock @samuelaure/auth ─────────────────────────────────────────────────────────────
-vi.mock('@samuelaure/auth', () => ({
+// ── Mock @samuelaure/nau-auth ─────────────────────────────────────────────────────────────
+vi.mock('@samuelaure/nau-auth', () => ({
   buildAccessTokenCookie: vi.fn(
     (token: string) => `nau_at=${token}; Path=/; HttpOnly; Secure; SameSite=Lax`,
   ),

@@ -6,7 +6,7 @@ import {
   buildRefreshTokenCookie,
   COOKIE_ACCESS_TOKEN,
   COOKIE_REFRESH_TOKEN,
-} from '@samuelaure/auth'
+} from '@samuelaure/nau-auth'
 
 const NAU_API_URL = process.env['NAU_API_URL'] ?? 'https://api.9nau.com'
 const COOKIE_DOMAIN = process.env['COOKIE_DOMAIN'] ?? '.9nau.com'

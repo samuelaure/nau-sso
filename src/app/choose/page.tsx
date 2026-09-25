@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
-import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN } from '@samuelaure/auth'
+import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN } from '@samuelaure/nau-auth'
 import { AppPicker } from './AppPicker'
 
 const NAU_API_URL = process.env['NAU_API_URL'] ?? 'https://api.9nau.com'

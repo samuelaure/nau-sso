@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
 import { NextResponse } from 'next/server'
-import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN } from '@samuelaure/auth'
+import { getSessionFromCookieStore, COOKIE_ACCESS_TOKEN } from '@samuelaure/nau-auth'
 
 const NAU_API_URL = process.env['NAU_API_URL'] ?? 'https://api.9nau.com'
 
